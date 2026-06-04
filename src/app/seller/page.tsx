@@ -187,14 +187,10 @@ export default function SellerDashboard() {
       
       {/* MOBILE HEADER BAR (lg:hidden) */}
       <div className="lg:hidden bg-white border-b border-slate-200 px-4 py-3 flex items-center justify-between w-full sticky top-0 z-45">
-        <div className="flex items-center gap-2">
-          <div className="bg-primary text-white p-1.5 rounded-lg flex items-center justify-center">
-            <GraduationCap className="w-5 h-5" />
-          </div>
-          <span className="text-lg font-black text-primary tracking-tight">
-            Edu<span className="text-accent">Sell</span> <span className="text-xs text-slate-400 font-bold">Seller</span>
-          </span>
-        </div>
+        <a href="/" className="flex items-center gap-2">
+          <img src="/Logo Header edusell.png" alt="EduSell" className="h-11 w-auto object-contain" />
+          <span className="text-xs text-slate-400 font-bold">Seller</span>
+        </a>
         
         <div className="flex items-center gap-3">
           {/* Mobile bell */}
@@ -224,15 +220,9 @@ export default function SellerDashboard() {
           
           {/* Logo brand */}
           <div className="hidden lg:flex items-center gap-2.5 pb-2 border-b border-slate-900">
-            <div className="bg-primary text-white p-2 rounded-xl flex items-center justify-center shadow-md shadow-primary/20">
-              <GraduationCap className="w-5 h-5" />
-            </div>
-            <div>
-              <span className="text-lg font-black text-white tracking-tight">
-                Edu<span className="text-accent">Sell</span>
-              </span>
-              <p className="text-[10px] text-slate-500 font-extrabold uppercase tracking-widest">Dashboard Seller</p>
-            </div>
+            <a href="/" className="flex items-center gap-2.5">
+              <img src="/Logo Header edusell.png" alt="EduSell Logo" className="h-14 w-auto object-contain brightness-0 invert" />
+            </a>
           </div>
 
           {/* User profiling Card */}

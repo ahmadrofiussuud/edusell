@@ -67,14 +67,9 @@ export default function LoginPage() {
           Kembali ke Beranda
         </a>
         
-        <div className="flex items-center gap-2">
-          <div className="bg-primary text-white p-1.5 rounded-lg flex items-center justify-center shadow-md">
-            <GraduationCap className="w-4 h-4" />
-          </div>
-          <span className="text-sm font-black text-white tracking-tight">
-            Edu<span className="text-accent">Sell</span>
-          </span>
-        </div>
+        <a href="/" className="flex items-center gap-2">
+          <img src="/Logo Header edusell.png" alt="EduSell" className="h-11 sm:h-14 w-auto object-contain" />
+        </a>
       </header>
 
       {/* MAIN CONTAINER */}

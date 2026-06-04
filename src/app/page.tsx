@@ -179,14 +179,9 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
             {/* Logo */}
-            <div className="flex items-center gap-2">
-              <div className="bg-primary text-white p-2 rounded-xl flex items-center justify-center shadow-md shadow-primary/20">
-                <GraduationCap className="w-6 h-6" />
-              </div>
-              <span className="text-2xl font-bold text-primary tracking-tight">
-                Edu<span className="text-accent">Sell</span>
-              </span>
-            </div>
+            <a href="/" className="flex items-center gap-2">
+              <img src="/Logo Header edusell.png" alt="EduSell" className="h-11 sm:h-16 w-auto object-contain" />
+            </a>
 
             {/* Desktop Navigation Links */}
             <nav className="hidden md:flex items-center gap-8">
